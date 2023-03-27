@@ -47,6 +47,7 @@
             this.Txtid = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.Btngrafik = new System.Windows.Forms.Button();
             this.Btnistatistik = new System.Windows.Forms.Button();
             this.Btntemizle = new System.Windows.Forms.Button();
@@ -233,6 +234,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.Btngrafik);
             this.groupBox2.Controls.Add(this.Btnistatistik);
             this.groupBox2.Controls.Add(this.Btntemizle);
@@ -247,9 +249,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "İşlemler";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(112, 415);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(182, 43);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Raporlar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Btngrafik
             // 
-            this.Btngrafik.Location = new System.Drawing.Point(109, 381);
+            this.Btngrafik.Location = new System.Drawing.Point(112, 359);
             this.Btngrafik.Name = "Btngrafik";
             this.Btngrafik.Size = new System.Drawing.Size(182, 43);
             this.Btngrafik.TabIndex = 6;
@@ -259,7 +271,7 @@
             // 
             // Btnistatistik
             // 
-            this.Btnistatistik.Location = new System.Drawing.Point(109, 326);
+            this.Btnistatistik.Location = new System.Drawing.Point(112, 304);
             this.Btnistatistik.Name = "Btnistatistik";
             this.Btnistatistik.Size = new System.Drawing.Size(182, 43);
             this.Btnistatistik.TabIndex = 5;
@@ -269,7 +281,7 @@
             // 
             // Btntemizle
             // 
-            this.Btntemizle.Location = new System.Drawing.Point(109, 269);
+            this.Btntemizle.Location = new System.Drawing.Point(112, 247);
             this.Btntemizle.Name = "Btntemizle";
             this.Btntemizle.Size = new System.Drawing.Size(182, 43);
             this.Btntemizle.TabIndex = 4;
@@ -279,7 +291,7 @@
             // 
             // Btnguncelle
             // 
-            this.Btnguncelle.Location = new System.Drawing.Point(109, 212);
+            this.Btnguncelle.Location = new System.Drawing.Point(112, 190);
             this.Btnguncelle.Name = "Btnguncelle";
             this.Btnguncelle.Size = new System.Drawing.Size(182, 43);
             this.Btnguncelle.TabIndex = 3;
@@ -289,7 +301,7 @@
             // 
             // Btnsil
             // 
-            this.Btnsil.Location = new System.Drawing.Point(109, 155);
+            this.Btnsil.Location = new System.Drawing.Point(112, 133);
             this.Btnsil.Name = "Btnsil";
             this.Btnsil.Size = new System.Drawing.Size(182, 43);
             this.Btnsil.TabIndex = 2;
@@ -299,7 +311,7 @@
             // 
             // Btnkaydet
             // 
-            this.Btnkaydet.Location = new System.Drawing.Point(109, 101);
+            this.Btnkaydet.Location = new System.Drawing.Point(112, 79);
             this.Btnkaydet.Name = "Btnkaydet";
             this.Btnkaydet.Size = new System.Drawing.Size(182, 43);
             this.Btnkaydet.TabIndex = 1;
@@ -309,7 +321,7 @@
             // 
             // Btnlistele
             // 
-            this.Btnlistele.Location = new System.Drawing.Point(109, 47);
+            this.Btnlistele.Location = new System.Drawing.Point(112, 25);
             this.Btnlistele.Name = "Btnlistele";
             this.Btnlistele.Size = new System.Drawing.Size(182, 43);
             this.Btnlistele.TabIndex = 0;
@@ -511,6 +523,7 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn perdurumDataGridViewCheckBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn permeslekDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button1;
     }
 }
 

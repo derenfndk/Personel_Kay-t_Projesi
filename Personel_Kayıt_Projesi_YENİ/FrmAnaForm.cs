@@ -157,5 +157,11 @@ namespace Personel_Kayıt_Projesi_YENİ
             FrmGrafikler frm2 = new FrmGrafikler();
             frm2.Show();    
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Frmraporlar frmrapor = new Frmraporlar();
+            frmrapor.Show();
+        }
     }
 }
